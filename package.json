@@ -1,7 +1,7 @@
 {
-  "name": "@xmzhou/rc-editor",
-  "version": "0.2.3",
-  "description": "一个基于React和monaco editor的代码编辑器",
+  "name": "@xmzhou/rc-terminal",
+  "version": "0.1.1",
+  "description": "一个基于React和xterm的可输入终端工具",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -22,10 +22,10 @@
   "files": [
     "dist"
   ],
-  "homepage": "https://xmzhoudev1997.github.io/rc-editor/dist/index.html",
+  "homepage": "https://xmzhoudev1997.github.io/rc-terminal/dist/index.html",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xmzhoudev1997/rc-editor"
+    "url": "https://github.com/xmzhoudev1997/rc-terminal"
   },
   "commitlint": {
     "extends": [
@@ -75,7 +75,10 @@
     "stylelint": "^14.9.1"
   },
   "dependencies": {
+    "ahooks": "^3.7.11",
     "classnames": "^2.5.1",
-    "monaco-editor": "^0.47.0"
+    "xterm": "^5.3.0",
+    "xterm-addon-fit": "^0.8.0",
+    "xterm-addon-web-links": "^0.9.0"
   }
 }

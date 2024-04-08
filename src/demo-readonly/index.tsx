@@ -7,7 +7,7 @@ import './index.less';
 const Foo: FC = () => {
     return <RcTerminal
         className="demo-terminal"
-        inputPrefix="请输入: "
+        readonly
     />;
 };
 

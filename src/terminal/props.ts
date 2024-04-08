@@ -1,16 +1,7 @@
-## 安装
-``` shell
-npm install @xmzhou/rc-terminal
-```
+import { ITerminalInitOnlyOptions, ITerminalOptions, Terminal } from "xterm";
+import { FitAddon } from "xterm-addon-fit";
+import { WebLinksAddon } from "xterm-addon-web-links";
 
-## 只读终端-示例
-<code src="@/demo-readonly/index.tsx"></code>
-
-## 交互终端-示例
-<code src="@/demo/index.tsx"></code>
-
-## API
-``` typescript
 export interface RC_TERMINAL_REF extends Terminal {
     fitAddon: FitAddon,
     webLinksAddon: WebLinksAddon,
@@ -42,4 +33,3 @@ export interface RC_TERMINAL {
    */
   onPressEnter?: (str: string) => void;
 }
-```
